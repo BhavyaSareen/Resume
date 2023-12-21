@@ -1,0 +1,117 @@
+body {
+    background: rgb(204, 204, 204);
+    font-family: Poppins;
+  }
+  
+  page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  }
+  
+  page[class="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+
+  }
+  
+  @media print {
+  
+    body,
+    page {
+      background: white;
+      margin: 0;
+      box-shadow: 0;
+      display: flex;
+    }
+  }
+
+ 
+  .resume-left {
+    /* left:0; */
+    width: 35%;
+    height: 100%;
+    background-color: #142336;
+    float: left;
+  }
+  
+  .resume-profile {
+    text-align: center;
+    
+  }
+  .profile-image{
+    margin-top: 20px;
+    width: 80%;
+  }
+  .profile-desc{
+    color: #ffff;
+    /* border: 5px solid red;     */
+  }
+
+  .profile-info{
+    margin-left: 20px;
+    color: white;
+  }
+
+  .info{
+    margin-bottom: 8px;
+  }
+  
+  .info-links{
+    color: white;
+    text-decoration: none;
+  }
+
+  .tech-head{
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .resume-right{
+    /* right:0; */
+     width: 60%;
+    height: 100%;
+    /* background-color: pink; */
+    float: right;
+    /* padding: 10px; */
+    margin: 2%;
+    color: black;
+    /* border: 2px solid red; */
+  }
+
+  .contact-link{
+    /* text-decoration: none; */
+    color: black; 
+}
+
+.head2{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.head3{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.head4{
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 12px;
+}
+p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+ul{
+    margin: 1px;
+    font-family: Poppins;
+    font-weight: 400;
+}
